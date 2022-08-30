@@ -15,7 +15,7 @@ from sensor_state_data import (
 
 from .parser import SensorProBluetoothDeviceData
 
-__version__ = "0.4.0"
+__version__ = "0.5.0"
 
 __all__ = [
     "SensorProBluetoothDeviceData",
