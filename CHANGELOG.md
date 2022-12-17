@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.5.1 (2022-12-17)
+### Fix
+* Negative temperature ([#7](https://github.com/Bluetooth-Devices/sensorpro-ble/issues/7)) ([`8541370`](https://github.com/Bluetooth-Devices/sensorpro-ble/commit/854137058cff08a7def3f387d952b7d926919f21))
+
 ## v0.5.0 (2022-08-30)
 ### Feature
 * Add support for the t201/t301 ([#5](https://github.com/Bluetooth-Devices/sensorpro-ble/issues/5)) ([`8235d01`](https://github.com/Bluetooth-Devices/sensorpro-ble/commit/8235d01f291e34e2cbbdce9e6dd7a888297ac84e))
