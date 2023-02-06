@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.5.2 (2023-02-06)
+### Fix
+* Update isort to fix CI ([#8](https://github.com/Bluetooth-Devices/sensorpro-ble/issues/8)) ([`1f3f186`](https://github.com/Bluetooth-Devices/sensorpro-ble/commit/1f3f18619b18f14095bd3e500d9489e7d45dd7ab))
+
 ## v0.5.1 (2022-12-17)
 ### Fix
 * Negative temperature ([#7](https://github.com/Bluetooth-Devices/sensorpro-ble/issues/7)) ([`8541370`](https://github.com/Bluetooth-Devices/sensorpro-ble/commit/854137058cff08a7def3f387d952b7d926919f21))

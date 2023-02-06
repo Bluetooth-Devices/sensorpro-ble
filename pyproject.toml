@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "sensorpro-ble"
-version = "0.5.1"
+version = "0.5.2"
 description = "SensorPro BLE Devices"
 authors = ["J. Nick Koston <nick@koston.org>"]
 license = "MIT"
