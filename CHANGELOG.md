@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.5.3 (2023-02-07)
+### Fix
+* Account for switching adapter when finding changed_manufacturer_data ([#9](https://github.com/Bluetooth-Devices/sensorpro-ble/issues/9)) ([`698d3c2`](https://github.com/Bluetooth-Devices/sensorpro-ble/commit/698d3c202b40ec1b3a654dc8a9ff536ff06243b2))
+
 ## v0.5.2 (2023-02-06)
 ### Fix
 * Update isort to fix CI ([#8](https://github.com/Bluetooth-Devices/sensorpro-ble/issues/8)) ([`1f3f186`](https://github.com/Bluetooth-Devices/sensorpro-ble/commit/1f3f18619b18f14095bd3e500d9489e7d45dd7ab))
