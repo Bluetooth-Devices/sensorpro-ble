@@ -39,9 +39,6 @@ class SensorProBluetoothDeviceData(BluetoothData):
             _, _, _, changed_manufacturer_data, _ = parse_advertisement_data_bytes(
                 service_info.raw
             )
-            import pprint
-
-            pprint.pprint(["changed_manufacturer_data", changed_manufacturer_data])
         else:
             changed_manufacturer_data = self.changed_manufacturer_data(service_info)
         if 43605 not in changed_manufacturer_data:
