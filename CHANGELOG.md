@@ -1,6 +1,53 @@
 # CHANGELOG
 
 
+## v0.7.0 (2025-04-30)
+
+### Chores
+
+- **deps**: Bump bluetooth-data-tools from 1.28.0 to 1.28.1
+  ([#33](https://github.com/Bluetooth-Devices/sensorpro-ble/pull/33),
+  [`a526892`](https://github.com/Bluetooth-Devices/sensorpro-ble/commit/a52689217d9288f5d01c89e2a4f1080d902c723f))
+
+- **deps**: Bump habluetooth from 3.42.0 to 3.44.0
+  ([#35](https://github.com/Bluetooth-Devices/sensorpro-ble/pull/35),
+  [`a74525e`](https://github.com/Bluetooth-Devices/sensorpro-ble/commit/a74525ee06be30bce1218ae7855104d1e04146e2))
+
+- **deps**: Bump myst-parser from 0.18.1 to 1.0.0
+  ([#26](https://github.com/Bluetooth-Devices/sensorpro-ble/pull/26),
+  [`6fd9b67`](https://github.com/Bluetooth-Devices/sensorpro-ble/commit/6fd9b67e4a41f62b40ef5369f1532dcfd400eccc))
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+
+- **deps**: Bump sphinx from 5.3.0 to 6.2.1
+  ([#34](https://github.com/Bluetooth-Devices/sensorpro-ble/pull/34),
+  [`682d292`](https://github.com/Bluetooth-Devices/sensorpro-ble/commit/682d292a87985a019a9bc98a4fb46ae68e3ce7db))
+
+- **deps**: Bump sphinx-rtd-theme from 1.1.1 to 2.0.0
+  ([#29](https://github.com/Bluetooth-Devices/sensorpro-ble/pull/29),
+  [`e9347e2`](https://github.com/Bluetooth-Devices/sensorpro-ble/commit/e9347e2a895f313291544129914cdc9c6bd88e56))
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+
+- **deps-dev**: Bump pytest from 7.2.1 to 8.3.5
+  ([#32](https://github.com/Bluetooth-Devices/sensorpro-ble/pull/32),
+  [`7849c2c`](https://github.com/Bluetooth-Devices/sensorpro-ble/commit/7849c2cb24d6678c8e3cfc06d0cc07faf7c8382d))
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+
+- **deps-dev**: Bump pytest-cov from 3.0.0 to 6.1.1
+  ([#31](https://github.com/Bluetooth-Devices/sensorpro-ble/pull/31),
+  [`8982da1`](https://github.com/Bluetooth-Devices/sensorpro-ble/commit/8982da16d2786a7b6d7e49218c247afa2d063701))
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+
+### Features
+
+- Use changed_manufacturer_data from newer bluetooth-sensor-state-data
+  ([#36](https://github.com/Bluetooth-Devices/sensorpro-ble/pull/36),
+  [`2f47c2d`](https://github.com/Bluetooth-Devices/sensorpro-ble/commit/2f47c2d7e2ad158bc317680fec16607c237239ec))
+
+
 ## v0.6.0 (2025-04-28)
 
 ### Chores
