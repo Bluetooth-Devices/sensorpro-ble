@@ -1,6 +1,46 @@
 # CHANGELOG
 
 
+## v0.7.1 (2025-05-21)
+
+### Bug Fixes
+
+- Update poetry to v2 ([#44](https://github.com/Bluetooth-Devices/sensorpro-ble/pull/44),
+  [`88d3426`](https://github.com/Bluetooth-Devices/sensorpro-ble/commit/88d34261bbddb1c81ae52901e261eaa71489042d))
+
+### Chores
+
+- **deps**: Bump bluetooth-sensor-state-data from 1.8.0 to 1.9.0
+  ([#43](https://github.com/Bluetooth-Devices/sensorpro-ble/pull/43),
+  [`171ecd7`](https://github.com/Bluetooth-Devices/sensorpro-ble/commit/171ecd75486d509ef2a6046474291e3fbbd47936))
+
+- **deps**: Bump habluetooth from 3.45.0 to 3.48.2
+  ([#39](https://github.com/Bluetooth-Devices/sensorpro-ble/pull/39),
+  [`96deb45`](https://github.com/Bluetooth-Devices/sensorpro-ble/commit/96deb45bb44bc2d398f80e256875bea906ef562b))
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+
+- **deps**: Bump myst-parser from 1.0.0 to 3.0.1
+  ([#38](https://github.com/Bluetooth-Devices/sensorpro-ble/pull/38),
+  [`fcc3640`](https://github.com/Bluetooth-Devices/sensorpro-ble/commit/fcc3640bb59fd0e3f687fa9879b7b8a6ef8317f6))
+
+- **deps**: Bump sphinx from 6.2.1 to 7.4.7
+  ([#42](https://github.com/Bluetooth-Devices/sensorpro-ble/pull/42),
+  [`d3492b6`](https://github.com/Bluetooth-Devices/sensorpro-ble/commit/d3492b62844404aff6bef41f812daec970e79477))
+
+- **deps**: Bump sphinx-rtd-theme from 2.0.0 to 3.0.2
+  ([#40](https://github.com/Bluetooth-Devices/sensorpro-ble/pull/40),
+  [`bdfc368`](https://github.com/Bluetooth-Devices/sensorpro-ble/commit/bdfc368e30a660e80b852560e61dc7b1fe31bab5))
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+
+- **pre-commit.ci**: Pre-commit autoupdate
+  ([#37](https://github.com/Bluetooth-Devices/sensorpro-ble/pull/37),
+  [`7a909e2`](https://github.com/Bluetooth-Devices/sensorpro-ble/commit/7a909e261bee5f15768fe0af97c1f0ceb2378b70))
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+
 ## v0.7.0 (2025-04-30)
 
 ### Chores
