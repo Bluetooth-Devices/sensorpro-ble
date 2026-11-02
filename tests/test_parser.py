@@ -105,7 +105,7 @@ def test_t201():
         devices={
             None: SensorDeviceInfo(
                 name="T201 EEFF",
-                model=1,
+                model="T201",
                 manufacturer="SensorPro",
                 sw_version=None,
                 hw_version=None,
@@ -178,7 +178,7 @@ def test_t301():
         devices={
             None: SensorDeviceInfo(
                 name="T301 EEFF",
-                model=5,
+                model="T301",
                 manufacturer="SensorPro",
                 sw_version=None,
                 hw_version=None,
@@ -251,7 +251,7 @@ def test_t301_raw():
         devices={
             None: SensorDeviceInfo(
                 name="T301 EEFF",
-                model=5,
+                model="T301",
                 manufacturer="SensorPro",
                 sw_version=None,
                 hw_version=None,
@@ -324,7 +324,7 @@ def test_t301_passive():
         devices={
             None: SensorDeviceInfo(
                 name="T301 EEFF",
-                model=5,
+                model="T301",
                 manufacturer="SensorPro",
                 sw_version=None,
                 hw_version=None,

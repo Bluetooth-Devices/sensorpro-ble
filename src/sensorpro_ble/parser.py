@@ -53,7 +53,7 @@ class SensorProBluetoothDeviceData(BluetoothData):
         device_type = service_info.name or DEVICE_TYPES.get(device_id) or DEFAULT_MODEL
         name = device_type
         self.set_precision(2)
-        self.set_device_type(device_id)
+        self.set_device_type(DEVICE_TYPES.get(device_id, DEFAULT_MODEL))
         self.set_title(f"{name} {short_address(service_info.address)}")
         self.set_device_name(f"{name} {short_address(service_info.address)}")
         self.set_device_manufacturer("SensorPro")
