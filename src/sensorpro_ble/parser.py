@@ -58,7 +58,7 @@ class SensorProBluetoothDeviceData(BluetoothData):
         self.set_device_name(f"{name} {short_address(service_info.address)}")
         self.set_device_manufacturer("SensorPro")
         xvalue = data[10:17]
-        (volt, temp, humi, batt) = unpack(">HhHB", xvalue)
+        volt, temp, humi, batt = unpack(">HhHB", xvalue)
         self.update_predefined_sensor(SensorLibrary.BATTERY__PERCENTAGE, batt)
         self.update_predefined_sensor(SensorLibrary.TEMPERATURE__CELSIUS, temp / 100)
         self.update_predefined_sensor(SensorLibrary.HUMIDITY__PERCENTAGE, humi / 100)
